@@ -1,4 +1,4 @@
-# Tooling and TypeScript
+# Tooling and ES2016+
 
 
 ---
@@ -11,13 +11,13 @@
   - Compiling ES6/TypeScript -> ES5 and LESS/SASS -> CSS
   - Combining multiple source files into single bundle file for faster loading
   - Running test suites
-  - Optimizations (minification, Dead code elimination, tree shaking)
+  - Optimizations (minification, uglification, tree shaking)
 
 ---
 
 # Node.js & npm
 
-- Node.js is JavaScript interpreter built on top of Chrome's V8 JavaScript engine
+- Node.js is a JavaScript interpreter built on top of Chrome's V8 JavaScript engine
 - npm (node package manager) is the package manager for Node
   - More packages than on any other package manager for any other language: over 270k (May 2016) ([modulecounts.com](http://www.modulecounts.com/))
 
@@ -32,19 +32,18 @@
 
 ---
 
-# Angular CLI
+# Create React App
 
-- Command-line interface for Angular 2 development
-- Supports generation of project, components, services, pipes etc.
-- Usage with `ng` command:
+- Command-line interface for creating a React app with no configuration
+- Usage with `create-react-app` command:
 
 ```shell
-ng new PROJECT_NAME
-cd PROJECT_NAME
-ng serve
+create-react-app my-app
+cd my-app/
+npm start
 ```
 
-Angular app now running on `localhost:4200`.
+React app now running on `http://localhost:3000/`.
 
 
 ---
@@ -67,15 +66,16 @@ Angular app now running on `localhost:4200`.
 
 ---
 
-# ES6
+# ES7
 
 - Newest version of EcmaScript standard that is the basis for JavaScript
-- Published 2015
-- Provides a lot of improvements for writing JavaScript in scale
+- Published in June 2016
+- Small release
+- ES6 provided lot of improvements for writing JavaScript in scale
 
 ---
 
-# ES6 - Key Features
+# ES7 - Key Features
 
 - `let` and `const` to replace `var`
 - Arrow functions
@@ -122,7 +122,7 @@ ES5 map:
   `return item * 2;`
 `}`)
 ```
-can be written as ES6:
+can be written as ES7:
 ```javascript
 [1,2,3,4].map(`item => item * 2`)
 ```

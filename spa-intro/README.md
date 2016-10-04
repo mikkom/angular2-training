@@ -1,24 +1,23 @@
 # Angular 2 & TypeScript Training - Gofore Oy
 
 ## Trainers
-- Roope Hakulinen & Henri Ihalainen
-- Working on EU funding applying & managing system for Ministry of Employment and the Economy (Työ- ja Elinkeinoministeriö)
-- Used Angular 2 from its first beta (beginning of the year)
+- Mikko Matilainen & Juhani Tapaninen
+- Working on multiple different projects using React, Redux and MobX
 
 ## Slides
 
-Available in [angular2-training.herokuapp.com](http://angular2-training.herokuapp.com/)
+Available in [react-training.herokuapp.com](http://angular2-training.herokuapp.com/)
 
 ---
 
 ## Agenda - Day 1
 #### Morning
 - Introduction to SPAs
-- TypeScript & Tooling
-- Angular 2 Fundamentals
+- ES2016+ & Tooling
+- React Fundamentals
 
 #### Afternoon
-- Angular 2 Advanced Topics
+- React Advanced Topics
 
 ---
 
@@ -35,7 +34,7 @@ Available in [angular2-training.herokuapp.com](http://angular2-training.herokuap
 
 ## Agenda
 
-- What is a SPA?
+- What is an SPA?
 - Real-life examples
 - Technical overview
 
@@ -65,17 +64,11 @@ Available in [angular2-training.herokuapp.com](http://angular2-training.herokuap
 
 ---
 
-# Angular 1
+# React
 
-- MVC framework with dependency injection
-- Emphasis on testability (decouples DOM manipulation from app logic)
-- Two-way data binding
-
----
-
-# Angular 2
-
-- Universal apps
-- Web workers
-- Migration from 1
-- Any rendering target (browser, mobile, desktop)
+- JavaScript library for building user interfaces
+- Released by Facebook in 2013
+- Provides only the V in MVC
+- Emphasis on declarative UI, view is a function of the state
+- One-way data binding
+- Multiple rendering targets (browser, mobile, desktop)
