@@ -20,7 +20,7 @@ git version 2.6.4
 ```
 
 ### Editor
-You may use any IDE you feel comfortable with but we recommend IntelliJ IDEA Ultimate (or WebStorm Ultimate) to be used since it provides very good support for Angular 2 development.
+You may use any IDE or editor you feel comfortable with but we recommend IntelliJ IDEA Ultimate (or WebStorm Ultimate) to be used since it provides very good support for Angular 2 development.
 
 If it's not possible to use Intellij IDEA or Webstorm, you may use Atom although it lacks code completion and auto-import features.
 

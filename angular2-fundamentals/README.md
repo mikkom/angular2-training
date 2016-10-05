@@ -1,4 +1,4 @@
-# Angular 2 Fundamentals
+# React Fundamentals
 - Background
 - Architecture
 - Components

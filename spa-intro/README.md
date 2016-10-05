@@ -1,12 +1,12 @@
-# Angular 2 & TypeScript Training - Gofore Oy
+# React & Redux Training - Gofore Oy
 
 ## Trainers
 - Mikko Matilainen & Juhani Tapaninen
-- Working on multiple different projects using React, Redux and MobX
+- Worked on projects using React, Redux and MobX
 
 ## Slides
 
-Available in [react-training.herokuapp.com](http://angular2-training.herokuapp.com/)
+Available in [react-redux-training.herokuapp.com](http://react-redux-training.herokuapp.com/)
 
 ---
 
@@ -18,19 +18,25 @@ Available in [react-training.herokuapp.com](http://angular2-training.herokuapp.c
 
 #### Afternoon
 - React Advanced Topics
+- React Router
 
 ---
 
 ## Agenda - Day 2
 #### Morning
-- Reactive programming with Angular 2
+- Redux
+- Redux Form
+- Reselect
+- Async libraries
 
 #### Afternoon
+- Universal React
+- Progressive Web Apps
 - Testing
 
 ---
 
-# Introduction to SPAs & Angular
+# Introduction to SPAs & React
 
 ## Agenda
 
@@ -67,7 +73,7 @@ Available in [react-training.herokuapp.com](http://angular2-training.herokuapp.c
 # React
 
 - JavaScript library for building user interfaces
-- Released by Facebook in 2013
+- First release by Facebook in 2013
 - Provides only the V in MVC
 - Emphasis on declarative UI, view is a function of the state
 - One-way data binding

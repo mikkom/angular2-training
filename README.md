@@ -1,9 +1,9 @@
-# Angular 2 Training
+# React & Redux Training
 
 ## Training topics
 
 - [Introduction to Single-Page Web Applications (SPAs)](spa-intro/README.md)
-- [Tooling and TypeScript](typescript-and-tooling/README.md)
+- [Tooling and ES2016+](es2016-and-tooling/README.md)
   - Tooling
     - Node.js and npm
     - ES6

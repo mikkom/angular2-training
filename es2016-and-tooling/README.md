@@ -66,16 +66,16 @@ React app now running on `http://localhost:3000/`.
 
 ---
 
-# ES7
+# ES7 (ES2016)
 
 - Newest version of EcmaScript standard that is the basis for JavaScript
 - Published in June 2016
 - Small release
-- ES6 provided lot of improvements for writing JavaScript in scale
+- ES6 (ES2015) provided lot of improvements for writing JavaScript in scale
 
 ---
 
-# ES7 - Key Features
+# ES6 - Key Features
 
 - `let` and `const` to replace `var`
 - Arrow functions
@@ -122,7 +122,7 @@ ES5 map:
   `return item * 2;`
 `}`)
 ```
-can be written as ES7:
+can be written as ES6:
 ```javascript
 [1,2,3,4].map(`item => item * 2`)
 ```
@@ -178,46 +178,6 @@ console.log(squareSum(4, 3)); // 5
 
 ---
 
-# TypeScript
-
-- Built by Microsoft to build JavaScript in scale
-- Initial release in October 2012
-- Typed superset of JavaScript -> Any valid JS is valid TypeScript
-- Advantages:
-  - Type system on top of JavaScript to catch errors already on compile-time
-  - Angular 2 is written in TypeScript
-
----
-
-# Typing
-- Provides the same types as in JavaScript: `number`, `string`, `boolean`, `null`, `undefined` and `object`.
-- Also some "extra" types such as `any`, `void` and `enum`
-- Arrays like `number[]`, `string[]` and `any[]`
-- `any` is basically anything like `number`, `string` or `any[]`
-
----
-
-# Interfaces
-- Interfaces to declare the acceptable object structures
-- Can have optional properties (declared with `?` before `:`)
-
-```typescript
-interface Person {
-    firstName: string;
-    lastName?: string;
-}
-
-function greeter(person: Person): string {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-
-var user = { firstName: "Jane", lastName: "User" };
-
-document.body.innerHTML = greeter(user);
-```
-
----
-
 # Classes
 
 - Like in other programming languages
@@ -226,40 +186,19 @@ document.body.innerHTML = greeter(user);
   - extend other classes
 - Can be casted to other classes if properties match (same as for interfaces)
 
-```typescript
+```javascript
 
-interface Person {
-    firstName: string;
-    lastName: string;
-}
-
-class Student implements Person {
-    fullName: string;
-    constructor(public firstName: string, public middleInitial: string, public lastName: string) {
+class Student {
+    constructor(firstName, middleInitial, lastName) {
         this.fullName = firstName + " " + middleInitial + " " + lastName;
     }
 }
 
-function greeter(person: Person) {
+function greeter(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 
 var user = new Student("Jane", "M.", "User");
 
 document.body.innerHTML = greeter(user);
-```
-
----
-
-# Annotations
-- Used to decorate classes and properties
-- Like Java annotations
-
-```typescript
-@Component({
-  template: 'my template'
-})
-class MyClass {
-  @Input() myProperty: string;
-}
 ```
